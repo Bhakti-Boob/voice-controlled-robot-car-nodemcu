@@ -19,7 +19,7 @@ Features:
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883                   // 1883 = plain MQTT, 8883 = MQTT+SSL
 #define AIO_USERNAME "Bhakti29"
-#define AIO_KEY "aio_hYmy08pucL4V6HGjYjhfF78atzMw"
+#define AIO_KEY "aio_xxxxxxxxxxxxxxxxxxxxxx"
 
 WiFiClient client;
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
