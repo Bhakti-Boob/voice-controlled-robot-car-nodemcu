@@ -13,7 +13,7 @@ Features:
 
 // WiFi Access Point
 #define WLAN_SSID "Bhakti"
-#define WLAN_PASS "123456789"
+#define WLAN_PASS "xxxxxxxxx"
 
 // Adafruit.io Setup 
 #define AIO_SERVER "io.adafruit.com"
