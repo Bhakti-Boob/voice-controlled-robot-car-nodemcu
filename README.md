@@ -4,6 +4,10 @@ Wi‑Fi connected robot car controlled by voice commands via Adafruit IO, using 
 # Overview
 This project implements a small robot car that receives motion commands from Adafruit IO MQTT feeds, which are typically driven by a smartphone voice assistant (Google assistant, Adafruit IO). The car’s microcontroller subscribes to dedicated MQTT topics for each command (Forward, Backward, Left, Right, Stand) and translates them into timed motor motions by driving four motor driver inputs. The design demonstrates cloud‑connected robotics, MQTT control and basic motion primitives on the Arduino platform.
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/14e2c96f-d551-4c47-bfd0-4a2b4cf0d5f4" width="400" controls></video>
+</div>
+
 # Features
 - Connects to Wi‑Fi and Adafruit IO MQTT using `Adafruit_MQTT_Client` 
 - Subscribes to five feeds: `Forward`, `backward`, `Left`, `Right`, `stand`, one per motion command 
@@ -15,7 +19,11 @@ This project implements a small robot car that receives motion commands from Ada
 - ESP32 development board   
 - Motor driver (L298)   
 - 2 × DC motors 
-- Chassis, wheels and 12 V battery pack 
+- Chassis, wheels and 12 V battery pack
+  
+<div align="center">
+  <img width="500" height="400" alt="wiring_diagram" src="https://github.com/user-attachments/assets/54dc8b17-d698-4d09-b583-7313a5260996" />
+</div>
 
 # Getting Started
 1. Adafruit IO setup
